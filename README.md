@@ -1,11 +1,11 @@
 # Unix
-Navigation and Directory Management
+#Navigation and Directory Management
 • pwd (Present Working Directory): Executed to confirm the user's current location in the file system.
 • ls (List): Used to view directory contents. Variations included ls -l for long-format listings showing file metadata and ls [directory name] to view a folder's contents remotely.
 • cd (Change Directory): Run to move into specific folders (e.g., cd demo_1) or back to the parent directory using cd ...
 • mkdir (Make Directory): Used to create new folders such as demo_1 and test-project.
 • mkdir -p: A specific flag used to create parent and subdirectories simultaneously, such as building a project structure like genomics-project/data/sequence in one step.
-File Creation and Manipulation
+#File Creation and Manipulation
 • touch: Run to create empty files, notably used with brace expansion to generate multiple sequencing files at once, such as sample_{A,B,C}_R{1,2}.fastq.
 • cp (Copy): Executed to duplicate files. The instructor demonstrated using the -t (target) flag to specify the destination directory.
 • mv (Move/Rename): Used both to move files between directories and to rename folders, such as changing demo_3 to test.
